@@ -7,7 +7,9 @@ const Topics = ({ match }) => {
       <h2>Topics</h2>
       <ul>
         <li>
-          // FIXME: duplicate // on first load
+          {
+            // FIXME: duplicate // on first load
+          }
           <Link to={`${match.url}/components`}>Components</Link>
         </li>
         <li>
